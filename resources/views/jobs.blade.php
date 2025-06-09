@@ -12,5 +12,8 @@
                 </div>
             </a>
         @endforeach
+
+        {{ $jobs->links() }}
+        {{-- {{ $jobs->links('vendor.pagination.semantic-ui') }} --}}
     </div>
 </x-layout>
