@@ -3,8 +3,8 @@
         Create a new job
     </x-slot:heading>
 
-    <div class="container mx-auto p-4">        
-        //tailwind form for creating a job
+    <div class="container mx-auto p-4 max-w-3xl">        
+        
         <form action="/jobs" method="POST" class="space-y-4">
             @csrf
             <div>
@@ -28,6 +28,6 @@
             <div>
                 <button type="submit" class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600">Create Job</button>
             </div>
-        </form>
+        </form>        
     </div>
 </x-layout>
