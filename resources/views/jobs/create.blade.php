@@ -5,7 +5,7 @@
 
     <div class="container mx-auto p-4 max-w-3xl">        
         
-        <form action="/jobs" method="POST" class="space-y-4">
+        <form action="/jobs/create" method="POST" class="space-y-4">
             @csrf
             <div>
                 <label for="title" class="block text-sm font-medium text-gray-700">Job Title</label>
@@ -18,7 +18,7 @@
             </div>
 
             <div>
-                <x-button type="submit">Create Job</x-button>
+                <button type="submit">Create Job</button>
             </div>
         </form>        
     </div>
