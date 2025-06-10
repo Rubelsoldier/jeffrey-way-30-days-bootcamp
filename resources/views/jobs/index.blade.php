@@ -4,9 +4,9 @@
         <div class="flex justify-between items-center mb-4">
             <h2>Job listing</h2>
             
-            <a href="/jobs/create" class="inline-block bg-gray-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+            <x-button href="/jobs/create">
                 Create Job
-            </a>
+            </x-button>
         </div>
     </x-slot:heading>
     <div class="container mx-auto p-4">
